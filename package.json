@@ -1,0 +1,36 @@
+{
+  "name": "invite-x-twitter",
+  "version": "1.0.0",
+  "description": "Next.js + Node.js platform for Twitter invite management",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "express": "^4.18.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "keywords": [
+    "nextjs",
+    "nodejs",
+    "twitter",
+    "invite",
+    "platform"
+  ],
+  "author": "Wizkhrus",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
